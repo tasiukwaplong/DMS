@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Debt Management System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://www.w3schools.com/appml/2.0.3/appml.js"></script>
+</head>
+<body>
+
+<div class="well well-lg">DMS 
+  <p class="pull-right">
+    <a href="api-documentation/"> Api Documentation</a> | <a href="more/">More </a>| 
+  </p>
+</div>
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <center>
+              <form style="margin-bottom: 10em;margin-top: 3em" method="post" action="../">
+
+    <div class="input-group col-xs-4">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>   
+      <input id="email" type="email" class="form-control" name="emails" placeholder="Email" required="">
+    </div>
+    <br>
+    <div class="input-group col-xs-4">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>   
+      <input id="names" type="text" class="form-control" name="names" placeholder="Full Name" required="">
+    </div>
+    <br>
+    <div class="input-group col-xs-4">
+      <span class="input-group-addon"><i class="glyphicon  glyphicon-phone"></i></span>
+      <input id="phone" type="number" class="form-control" minlength="11" maxlength="11" name="phoneNumber"  placeholder="Phone Number" required="true" min="0">
+    </div>
+
+    <div class="input-group col-xs-4">
+      <br>
+    <input type="submit" class="btn btn-primary" value="Register" />
+  </div>
+
+  <a href="../">Login here</a>
+  </form>
+  
+</center>
+
+    </div>
+  </div>
+</div>
+
+<div class="well well-sm">
+    <div appml-include-html="../style/footer.html"></div>
+</div>
+
+    
+</body>
+
+</html>
