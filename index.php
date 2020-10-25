@@ -1,7 +1,7 @@
 <?php
 //script by Tasiu Kwaplong (T.K) 09031514346 Nov, 2017
 session_start();
-
+// wrote a test
 if(isset($_SESSION['dms_user_login'])){
 header("location: dashboard/");
 }
@@ -136,7 +136,6 @@ function test_input2($data) {
     </div>
   </div>
 </div>
-
 <div class="well well-sm">
     <div appml-include-html="style/footer.html"></div>
 </div>
